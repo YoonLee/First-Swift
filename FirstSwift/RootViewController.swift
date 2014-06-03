@@ -11,6 +11,9 @@ import UIKit
 class RootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad();
+        
+        self.view!.backgroundColor = UIColor.whiteColor();
+        println("Hello World!");
     }
     
     override func didReceiveMemoryWarning() {
