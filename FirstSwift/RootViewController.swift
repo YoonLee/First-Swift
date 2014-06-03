@@ -14,6 +14,11 @@ class RootViewController: UIViewController {
         
         self.view!.backgroundColor = UIColor.whiteColor();
         println("Hello World!");
+        
+        var number = 5;
+        let unchange_num = 7;
+        
+        println(number + unchange_num);
     }
     
     override func didReceiveMemoryWarning() {

@@ -1,0 +1,17 @@
+//
+//  FirstSwift.pch
+//  FirstSwift
+//
+//  Created by Yoon Lee on 6/2/14.
+//  Copyright (c) 2014 Yoon Lee. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#endif
